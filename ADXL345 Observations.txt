@@ -1,0 +1,13 @@
+ADXL345 module(Robu SKU: 699522) interfacing with PIC1632 Dev Board-
+--------------------------------------------------------------------
+
+
+Observations-
+
+1. R4 and R5 are zero ohm resistors mounted on ADXL345 module. If both are there, SPI and I2C are not working properly.
+
+2. If R4 is removed, SPI works properly but I2C works in the mode when SDO is set High externally. If SDO is set Low, I2C is not working.
+
+3. If R4 and R5 both the resistors are removed from ADXL345 module, then SPI and I2c(in both modes) works correctly.
+
+4. Current program is working correctly after removing R4 and R5 resistors.
