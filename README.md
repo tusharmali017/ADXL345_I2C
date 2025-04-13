@@ -1,4 +1,4 @@
-This is the ADXL345 Accelerometer Sensor library for PIC 1632 Dev board having PIC24Fj1024GB610 on it. 
+This is the ADXL345 Accelerometer Sensor library for PIC 1632 Dev board having PIC24FJ1024GB610 on it. 
 
 This chip uses I2C protocol to communicate, 2 pins are required to interface SDA and SCL along with VCC and GND.
 
